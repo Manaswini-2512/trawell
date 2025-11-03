@@ -28,7 +28,7 @@ A web-based tourism and culture platform built using the **MERN Stack (MongoDB, 
 ## Install locally (Windows)  
 ```powershell
 # open PowerShell in the project folder
-git clone https://github.com/yourusername/trawell.git
+git clone https://github.com/manaswini_2512/trawell.git
 cd trawell
 
 # Backend setup
