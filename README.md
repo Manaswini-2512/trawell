@@ -79,5 +79,5 @@ Ensure the following software is installed before running the project:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/trawell.git
+git clone https://github.com/Manaswini-2512/trawell.git
 cd trawell
