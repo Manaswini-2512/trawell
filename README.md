@@ -1,74 +1,81 @@
-#  Trawell  
 
-A web-based tourism and culture platform built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.  
-**Trawell** connects travelers with local artisans, destinations, and cultural experiences—encouraging **sustainable tourism** and **handicraft promotion** through a single digital platform.  
+# 🧭 Trawell – Culture & Tourism Discovery Platform
 
----
+**Trawell** is a web-based tourism and cultural discovery platform designed to connect **travelers with local artisans, handicrafts, and cultural destinations**.  
+The platform promotes **sustainable tourism** by enabling users to explore authentic travel experiences while supporting local craftsmanship.
 
-## Features  
-- Location-based discovery of artisans, crafts, and tourist spots.  
-- User and artisan authentication with profile management.  
-- Craft listings with images, pricing, and detailed descriptions.  
-- Booking and interaction options for travelers.  
-- Admin dashboard for approving artisans and managing data.  
-- Responsive UI design for both mobile and web users.  
-- Integration with Google Maps API for location visualization.  
-- Promotes cultural tourism and supports local craftsmanship.  
+The application is built using **React, TypeScript, Vite, and Tailwind CSS**, providing a modern, responsive, and user-friendly interface for discovering destinations and cultural products.
 
 ---
 
-## Requirements  
-- **Node.js** (v16 or above)  
-- **MongoDB** (local or cloud)  
-- **npm** (Node package manager)  
-- **Google Maps API Key**  
+## 📸 Screenshots
+
+### Home Page
+![Home](images/home.png)
+
+### Cultural Destinations
+![Destinations](images/destinations.png)
+
+### Artisan Marketplace
+![Marketplace](images/marketplace.png)
+
+### Contact Page
+![Contact](images/contact.png)
 
 ---
 
-## Install locally (Windows)  
-```powershell
-# open PowerShell in the project folder
-git clone https://github.com/manaswini_2512/trawell.git
-cd trawell
+## 🚀 Features
 
-# Backend setup
-cd backend
-npm install
-# Create .env file with:
-# MONGO_URI=your_mongodb_uri
-# JWT_SECRET=your_secret
-# PORT=5000
-npm run dev
+- **Destination Discovery**
+  - Users can explore various cultural destinations and tourist attractions.
 
-# Frontend setup (in a new terminal)
-cd ../frontend
-npm install
-npm start
-```
+- **Artisan Marketplace**
+  - Showcases local handicrafts and artisan products with images and descriptions.
+
+- **Responsive Design**
+  - Works smoothly on both desktop and mobile devices.
+
+- **Modern UI Components**
+  - Built using reusable React components for consistent design.
+
+- **Interactive Navigation**
+  - Easy navigation between sections like **Home, Destinations, Marketplace, and Contact**.
+
+- **Cultural Promotion**
+  - Encourages awareness and appreciation of traditional crafts and cultural tourism.
 
 ---
 
-## Run  
-Once both frontend and backend servers are running,  
-open your browser and go to:  
+## ⚙️ Requirements
+
+Ensure the following software is installed before running the project:
+
+- **Node.js** (v16 or above)
+- **npm (Node Package Manager)**
+- Modern web browser (Chrome, Edge, Firefox)
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+- React.js
+- TypeScript
+- Vite
+- Tailwind CSS
+
+### Development Tools
+- Git
+- GitHub
+- ESLint
+- PostCSS
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+
 ```bash
-http://localhost:3000
-```
-
----
-
-## Recommended repo contents before pushing to GitHub  
-- `backend/` (Node.js + Express server)  
-- `frontend/` (React app)  
-- `README.md` (this file)  
-- `.env.example` (sample environment file)  
-- `.gitignore` (ignore `node_modules`, `.env`, and build files)  
-
----
-
-## Technology Stack  
-- **Frontend:** React.js, HTML, CSS, JavaScript  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **APIs:** Google Maps API, RESTful APIs  
-- **Tools:** Git, GitHub, Postman, Figma  
+git clone https://github.com/yourusername/trawell.git
+cd trawell
