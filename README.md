@@ -15,9 +15,11 @@ The application is built using **React, TypeScript, Vite, and Tailwind CSS**, pr
 
 ### Cultural Destinations
 ![Destinations](images/destinations.png)
+![Destinations](images/destinations1.png)
 
 ### Artisan Marketplace
 ![Marketplace](images/marketplace.png)
+![Marketplace](images/marketplace1.png)
 
 ### Contact Page
 ![Contact](images/contact.png)
